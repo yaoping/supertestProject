@@ -22,9 +22,10 @@ describe('Github home page', function () {
         request.post('/signup_check/username')
             .type('form')
             .send('{value:yaoping}')
-            .expect(404)
+            .expect(403)
             .end(function (err, res) {
                 if (err) return done(err)
+                expect(res.body).to.equal('Username is already taken')
                 done();
             })
 
