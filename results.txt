@@ -1,0 +1,22 @@
+
+[0m[0m
+[0m  Github home page[0m
+[2K[0G  [31m  1) could be navigated to register page[0m
+
+
+[92m [0m[32m 0 passing[0m[90m (2s)[0m
+[31m  1 failing[0m
+
+[0m  1) Github home page could be navigated to register page:
+[0m[31m     TypeError: Cannot read property 'status' of undefined[0m[90m
+      at Test._assertStatus (c:\dev\supertest\node_modules\supertest\lib\test.js:229:10)
+      at Test._assertFunction (c:\dev\supertest\node_modules\supertest\lib\test.js:247:11)
+      at Test.assert (c:\dev\supertest\node_modules\supertest\lib\test.js:148:18)
+      at assert (c:\dev\supertest\node_modules\supertest\lib\test.js:127:12)
+      at c:\dev\supertest\node_modules\supertest\lib\test.js:124:5
+      at Test.Request.callback (c:\dev\supertest\node_modules\supertest\node_modules\superagent\lib\node\index.js:687:12)
+      at ClientRequest.<anonymous> (c:\dev\supertest\node_modules\supertest\node_modules\superagent\lib\node\index.js:639:10)
+      at TLSSocket.socketErrorListener (_http_client.js:267:9)
+[0m
+
+
