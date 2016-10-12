@@ -1,4 +1,8 @@
-var request = require('supertest')('https://github.com');
+var config = require('../config/endpoints');
+var request = require('supertest')(config.host[config.env]);
+var chai = require('chai');
+var expect = chai.expect;
+
 
 describe('Github home page',function(){
 
